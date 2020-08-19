@@ -1,0 +1,28 @@
+.app{
+    font-family: 'PT Serif', serif;
+    padding: 30px;
+}
+
+.form-group{
+    margin-right: 1rem;
+}
+
+.row.justify-content-center-flipGame{
+    display: grid;
+    margin-bottom:20px;
+    place-items: center;
+}
+
+.form-control{
+    min-width: 100px;
+}
+.row{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    place-items: unset;
+}
+
+.row p{
+    color: chocolate;
+    margin-bottom: 0px;
+}

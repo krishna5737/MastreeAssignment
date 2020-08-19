@@ -1,0 +1,42 @@
+<!-- Problem--> 
+Task 3 Climb Stairs
+There's a staircase with N steps, and you can climb 1 or 2 steps at a time. Given N,
+write a function that returns the number of unique ways you can climb the staircase.
+The order of the steps matters. 
+<!-- Problem-->
+
+<!-- Approach: -->
+    n = 1 --> (1)
+    n = 2 --> (1,1),(2) 
+    n = 3 --> (1,1,1),(2,1),(1,2)
+    n = 4 --> (1,1,1,1),(2,1,1),(1,2,1),(1,1,2),(2,2)
+
+    If you closely look at pattern Current set will have: For example:(for 4):
+    -->  all the set of previous set appended with 1 (as we need to move one more step) 
+            append 1 to set of 3: (1,1,1),(2,1),(1,2)
+            (1,1,1,1),(2,1,1),(1,2,1)
+    -->  all the set of one before previous appended with 2 (as we need to move tow more steps)
+            append 2 to set of 2: (1,1),(2)
+            (1,1,2),(2,2)
+
+    Which means current set will be the sum of previous and one before previous(fibonacci):
+    SC(n) = SC(n-1) + SC(n-2)
+<!-- Approach: -->
+
+<!--Pseudo Code-->
+def CountSteps(n): 
+    a = 1
+    b = 1
+    if n == 0 :
+        return 0
+    if n == 1: 
+        return b 
+    else: 
+        for i: 2 -> n+1: 
+            c = a + b 
+            a = b 
+            b = c 
+        return b 
+Time Complexity:O(n)
+Extra Space: O(1)
+<!--Pseudo Code-->
