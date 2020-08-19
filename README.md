@@ -7,7 +7,7 @@
     2. user can open index.html file in directory '/flipGame/' in any browser(*Chrome recommended)
     Note: Intenet should be enabled as code uses jquery and bootstrap cdn
 
-# P3: Step Case Problem:
+# P3: Climb Stairs:
     1. Pseudo code is written for the problem with proper explnation
 
 For any issue/doubt please wrote to author : krishna.5737@gmail.com
