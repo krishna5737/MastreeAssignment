@@ -8,7 +8,7 @@
     Note: Intenet should be enabled as code uses jquery and bootstrap cdn
 
 # P3: Climb Stairs:
-    1. Pseudo code is written for the problem with proper explnation
+    1. Pseudo code is written for the problem with proper explanation
 
 For any issue/doubt please wrote to author : krishna.5737@gmail.com
 
