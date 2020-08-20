@@ -10,6 +10,6 @@
 # P3: Climb Stairs:
     1. Pseudo code is written for the problem with proper explanation
 
-For any issue/doubt please wrote to author : krishna.5737@gmail.com
+For any issue/doubt please write to author : krishna.5737@gmail.com
 
 
